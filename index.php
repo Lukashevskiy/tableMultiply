@@ -21,15 +21,16 @@ for ($tr = 1; $tr <= $rows; $tr++)
 			$background= 'rgba(200, 200, 200, 0.25)';
     		$border = '';
 		if($tr == 1){
-	
-				$border = '; border-bottom: 3px #9D0000 solid';
+			$background= 'rgba(157, 0, 0, 0.25)';
+			$border = '; border-bottom: 3px #9D0000 solid';
 				//$border .= '; border-right: 2px red solid';	
 	
 		}
 
 		if($td == 1){
+			$background= 'rgba(157, 0, 0, 0.25)';
 				//$border = '; border-bottom: 2px red solid';
-				$border .= '; border-right: 3px #9D0000 solid';			
+			$border .= '; border-right: 3px #9D0000 solid';			
 
 		}
         echo '<td style="background-color:', $background, $border, '">', $tr * $td, '</td>';
