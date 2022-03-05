@@ -18,7 +18,7 @@ for ($tr = 1; $tr <= $rows; $tr++)
 
     for($td = 1; $td <= $cols; $td++)
     {		
-			$background= 'rgba(200, 200, 200, 0.25)';
+		$background= 'rgba(200, 200, 200, 0.25)';
     		$border = '';
 		if($tr == 1){
 			$background= 'rgba(157, 0, 0, 0.25)';
